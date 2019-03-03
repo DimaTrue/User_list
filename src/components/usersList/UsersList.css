@@ -1,0 +1,22 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+
+.accordion {
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.user_list_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 780px) { 
+  .username, .phone, .location {
+    display: none;
+  }
+}
